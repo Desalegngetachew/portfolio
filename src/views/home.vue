@@ -26,6 +26,7 @@
           <h1 class="typing"></h1>
         </vue-typed-js> -->
         <div class="flex gap-4 pt-10 mt-10 items-center justify-center">
+          <a href="https://www.facebook.com/desetyibyit.sol">
           <div class="p-6 bg-gray-300 rounded-full">
             <svg
               class="h-7 w-7 fill-current text-blue-600"
@@ -41,6 +42,8 @@
               ></path>
             </svg>
           </div>
+        </a>
+        <a href="https://t.me/deseget">
           <div class="p-6 bg-gray-300 rounded-full">
             <svg
               class="h-7 w-7 fill-current text-green-600"
@@ -56,26 +59,27 @@
               ></path>
             </svg>
           </div>
+        </a>
           <div class="p-6 bg-gray-300 rounded-full">fa</div>
           <div class="p-6 bg-gray-300 rounded-full">fa</div>
         </div>
       </div>
     </div>
     <div class="w-full h-auto p-4 bg-green-50">
-      <h2 class="text-center text-2xl p-4">About Me</h2>
+      <h2 class="text-center text-3xl p-4">About Me</h2>
       <about />
     </div>
     <div class="w-full h-auto bg-green-100 p-3">
-      <h2 class="text-center text-2xl">Service</h2>
+      <h2 class="text-center text-3xl">Service</h2>
       <service/>
     </div>
     <div class="w-full h-auto bg-green-300">
-      <h2 class="text-center text-2xl">Portfolio</h2>
+      <h2 class="text-center text-3xl">Portfolio</h2>
      <portfolio/>
     
     </div>
     <div class="w-full h-auto bg-green-300">
-      <h2 class="text-center text-2xl">SAY HELLO TO ME</h2>
+      <h2 class="text-center text-3xl">SAY HELLO TO ME</h2>
     </div>
   </div>
 </template>
@@ -91,7 +95,12 @@ import portfolio from "../components/portfolio.vue";
 .name {
   color: #d7b94c;
 }
-
+@media (max-width:600px) {
+  .main .text{
+    visibility: hidden;
+    font-size: 26px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

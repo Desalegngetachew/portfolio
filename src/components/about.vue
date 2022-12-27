@@ -2,14 +2,14 @@
     <div>
 <div class="flex gap-2 items-center justify-between flex-wrap">
 <!-- <div class=" "> -->
-    <div class="block justify-center items-center ml-10 flex-wrap w-[43%]">
+    <div class="contact block justify-center items-center ml-10 flex-wrap md:w-[43%] sm:h-full">
         <h1 class="text-2xl p-2">{{about_name}}</h1>
         <p>{{paragraph}}</p>
         <div class="flex gap-2 mt-3">
             <span>
                 <svg class="fill-current h-6 w-7 text-blue-600" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BusinessOutlinedIcon" tabindex="-1" title="BusinessOutlined"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"></path></svg>
             </span>
-           <p> Desalegn Getachew, Bahir Dar, Ethiopia.</p>
+           <p class="flex-wrap"> Desalegn Getachew, Bahir Dar, Ethiopia.</p>
         </div>
         <div class="flex gap-2 mt-3">
           <span>
@@ -31,10 +31,10 @@
         </div>
     </div>
 <!-- </div> -->
-<div class="w-48 justify-center items-center">
+<div class="w-48 justify-center items-center md:ml-10 sm:ml-10 sm:items-center">
     <img src="../assets/background.jpg" class="rounded-full" alt="was my photo">
 </div>
-<div class="block">
+<div class="block lg:ml-0 sm:ml-10">
     <h2 class="text-3xl">My Professional Skills</h2>
     <div >
         c
@@ -81,5 +81,12 @@
 </script>
 
 <style scoped>
-
+@media (max-width:600px) {
+   .contact {
+    width: 100%;
+    margin-left:0px;
+     
+    }
+   
+  }
 </style>
