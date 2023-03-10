@@ -13,7 +13,7 @@ const hiddenToggle = ref(false)
 <template>
   <div class="bg-green-50 dark:bg-gray-800 w-full h-full">
   <header>
-    <div class="flex justify-between bg-green-100 dark:bg-gray-800 w-full fixed pt-3 bg-transparent ">
+    <div class="flex justify-between bg-green-100 dark:bg-gray-800 w-full fixed pt-3">
       <div>
       <router-link to="/"> <p class="text-lg font-sans font-bold ml-3 text-orange-900">Desalegn</p></router-link>
       </div>

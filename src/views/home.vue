@@ -1,9 +1,9 @@
 <template>
   <div class="w-full h-full">
     <div
-      class="bg-fixed bg-green-50 dark:bg-gray-800 justify-center bg-center items-center flex bg-cover"
+      class="w-full h-screen bg-fixed bg-green-50 dark:bg-gray-800 justify-center bg-center items-center flex bg-cover"
     >
-      <div class="block">
+      <div class="block ">
         <div class="block">
           <!-- <h1 class="name text-center font-sans text-2xl pb-2">Hi, I am</h1> -->
           <h1 class="name text-center font-sans text-7xl pb-2 font-bold">
@@ -27,66 +27,59 @@
         </vue-typed-js> -->
         <div class="flex gap-4 pt-10 mt-10 items-center justify-center">
           <a href="https://www.facebook.com/desetyibyit.sol">
-            <div class="p-6 bg-gray-300 rounded-full">
-              <svg
-                class="h-7 w-7 fill-current text-blue-600"
-                focusable="false"
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                data-testid="FacebookOutlinedIcon"
-                tabindex="-1"
-                title="FacebookOutlined"
-              >
-                <path
-                  d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
-                ></path>
-              </svg>
-            </div>
-          </a>
-          <a href="https://t.me/deseget">
-            <div class="p-6 bg-gray-300 rounded-full">
-              <svg
-                class="h-7 w-7 fill-current text-green-600"
-                focusable="false"
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                data-testid="SendOutlinedIcon"
-                tabindex="-1"
-                title="SendOutlined"
-              >
-                <path
-                  d="m4.01 6.03 7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3 2 10l15 2-15 2 .01 7L23 12 2.01 3z"
-                ></path>
-              </svg>
-            </div>
-          </a>
+          <div class="p-6 bg-gray-300 rounded-full">
+            <svg
+              class="h-7 w-7 fill-current text-blue-600"
+              focusable="false"
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              data-testid="FacebookOutlinedIcon"
+              tabindex="-1"
+              title="FacebookOutlined"
+            >
+              <path
+                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
+              ></path>
+            </svg>
+          </div>
+        </a>
+        <a href="https://t.me/deseget">
+          <div class="p-6 bg-gray-300 rounded-full">
+            <svg
+              class="h-7 w-7 fill-current text-green-600"
+              focusable="false"
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              data-testid="SendOutlinedIcon"
+              tabindex="-1"
+              title="SendOutlined"
+            >
+              <path
+                d="m4.01 6.03 7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3 2 10l15 2-15 2 .01 7L23 12 2.01 3z"
+              ></path>
+            </svg>
+          </div>
+        </a>
           <div class="p-6 bg-gray-300 rounded-full">fa</div>
           <div class="p-6 bg-gray-300 rounded-full">fa</div>
         </div>
       </div>
     </div>
-    <div class="w-full h-auto p-4">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">
-        About Me
-      </h2>
+    <div class="w-full h-auto p-4 ">
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">About Me</h2>
       <about />
     </div>
     <div class="w-full h-auto p-3">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">
-        Service
-      </h2>
-      <service />
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Service</h2>
+      <service/>
+    </div>
+    <div class="w-full h-auto ">
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Portfolio</h2>
+     <portfolio/>
+    
     </div>
     <div class="w-full h-auto">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">
-        Portfolio
-      </h2>
-      <portfolio />
-    </div>
-    <div class="w-full h-auto">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">
-        SAY HELLO TO ME
-      </h2>
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">SAY HELLO TO ME</h2>
     </div>
   </div>
 </template>
@@ -102,8 +95,8 @@ import portfolio from "../components/portfolio.vue";
 .name {
   color: #d7b94c;
 }
-@media (max-width: 600px) {
-  .main .text {
+@media (max-width:600px) {
+  .main .text{
     visibility: hidden;
     font-size: 26px;
   }
@@ -158,6 +151,7 @@ import portfolio from "../components/portfolio.vue";
   background: rgb(240, 236, 236);
  border-left: 2px solid #face30;*/
   animation: typing 2s steps(10) infinite;
+  
 }
 @keyframes typing {
   40%,
