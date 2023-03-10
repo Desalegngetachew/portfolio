@@ -1,21 +1,21 @@
 <template>
   <div class="w-full h-full">
     <div
-      class="w-full h-screen bg-fixed bg-green-50 dark:bg-gray-800 justify-center bg-center items-center flex bg-cover"
+      class="w-full sm:h-screen bg-fixed bg-green-50 dark:bg-gray-800 justify-center bg-center items-center flex bg-cover"
     >
       <div class="block ">
         <div class="block">
           <!-- <h1 class="name text-center font-sans text-2xl pb-2">Hi, I am</h1> -->
-          <h1 class="name text-center font-sans text-7xl pb-2 font-bold">
+          <h1 class="name text-center font-mono text-5xl pb-2 font-bold">
             Desalegn Getachew
           </h1>
 
-          <h1 class="name text-center text-3xl mt-3">ደሳለኝ ጌታቸው</h1>
+          <h1 class="name text-center font-mono font-bold text-3xl mt-3">ደሳለኝ ጌታቸው</h1>
         </div>
 
-        <div class="main">
-          <div class="text">I'm a</div>
-          <ul class="option">
+        <div class="main flex items-center pt-4">
+          <div class="text font-mono font-bold text-lg">I'm a</div>
+          <ul class="option font-mono font-bold text-lg">
             <li><span>Programmer</span></li>
             <li><span>Designer</span></li>
             <li><span>Developer</span></li>
@@ -113,7 +113,7 @@ import portfolio from "../components/portfolio.vue";
 }
 .main .text {
   color: green;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
 }
 .main .option {
@@ -125,7 +125,7 @@ import portfolio from "../components/portfolio.vue";
 .option li {
   list-style: none;
   color: #face30;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
   position: relative;
   top: 0;
