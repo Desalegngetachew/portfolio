@@ -19,11 +19,16 @@ const hiddenToggle = ref(false)
       </div>
       <div>
       <nav class="flex gap-5 pr-5  text-orange-900 text-lg font-mono font-bold">
-        <RouterLink to="/" class="hover:text-green-700 hover:border-b-2">Home</RouterLink>
-        <RouterLink to="/about" class="hover:text-green-700 hover:border-b-2">About</RouterLink>
-        <RouterLink to="/service" class="hover:text-green-700 hover:border-b-2">Service</RouterLink>
-        <RouterLink to="/portfolio" class="hover:text-green-700 hover:border-b-2">Portfolio</RouterLink>
-        <RouterLink to="/contact" class="hover:text-green-700 hover:border-b-2">Contact</RouterLink>
+        <!-- <RouterLink to="/" class="hover:text-green-700 hover:border-b-2">Home</RouterLink> -->
+        <a href="#home" class="hover:text-green-700 hover:border-b-2">Home</a>
+        <!-- <RouterLink to="/about" class="hover:text-green-700 hover:border-b-2">About</RouterLink> -->
+        <a href="#about" class="hover:text-green-700 hover:border-b-2">About</a>
+        <!-- <RouterLink to="/service" class="hover:text-green-700 hover:border-b-2">Service</RouterLink> -->
+        <a href="#service" class="hover:text-green-700 hover:border-b-2">Service</a>
+        <!-- <RouterLink to="/portfolio" class="hover:text-green-700 hover:border-b-2">Portfolio</RouterLink> -->
+        <a href="#portfolio" class="hover:text-green-700 hover:border-b-2">Portfolio</a>
+        <!-- <RouterLink to="/contact" class="hover:text-green-700 hover:border-b-2">Contact</RouterLink> -->
+        <a href="#contact" class="hover:text-green-700 hover:border-b-2">Contact</a>
         <button @click="toggleDark()" class="rounded-lg py-2 bg-gray-800 dark:bg-white dark:text-gray-800 text-white hover:bg-green-700 hover:scale-110 text-mono text-bold text-lg px-6">change brightness</button>
       </nav>
       

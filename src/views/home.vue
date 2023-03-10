@@ -4,7 +4,7 @@
       class="w-full sm:h-screen bg-fixed bg-green-50 dark:bg-gray-800 justify-center bg-center items-center flex bg-cover"
     >
       <div class="block ">
-        <div class="block">
+        <div class="block" id="home">
           <!-- <h1 class="name text-center font-sans text-2xl pb-2">Hi, I am</h1> -->
           <h1 class="name text-center font-mono text-5xl pb-2 font-bold">
             Desalegn Getachew
@@ -27,9 +27,9 @@
         </vue-typed-js> -->
         <div class="flex gap-4 pt-10 mt-10 items-center justify-center">
           <a href="https://www.facebook.com/desetyibyit.sol">
-          <div class="p-6 bg-gray-300 rounded-full">
+          <div class="p-4 bg-gray-300 hover:scale-110 hover:bg-green-400 rounded-full">
             <svg
-              class="h-7 w-7 fill-current text-blue-600"
+              class="h-7 w-7 hover:scale-110 fill-current text-blue-600"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -44,9 +44,9 @@
           </div>
         </a>
         <a href="https://t.me/deseget">
-          <div class="p-6 bg-gray-300 rounded-full">
+          <div class="p-4 hover:scale-110 hover:bg-green-400 bg-gray-300 rounded-full">
             <svg
-              class="h-7 w-7 fill-current text-green-600"
+              class="h-7 w-7 fill-current hover:scale-110 text-green-600"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -60,25 +60,33 @@
             </svg>
           </div>
         </a>
-          <div class="p-6 bg-gray-300 rounded-full">fa</div>
-          <div class="p-6 bg-gray-300 rounded-full">fa</div>
+        <a href="https://github.com/Desalegngetachew">
+          <div class="p-4 hover:scale-110 hover:bg-green-400 cursor-pointer bg-gray-300 rounded-full">
+<img src="../assets/github.png" alt="github logo" class="h-8 w-8" srcset="">
+          </div>
+        </a>
+      <a href="https://linkedin.com/in/desalegn-getachew-23b213234">
+          <div class="p-4 hover:scale-110 hover:bg-green-400 cursor-pointer bg-gray-300 rounded-full">
+            <img src="../assets/linkedin.png" alt="linked logo" class="h-7 w-7" srcset="">
+          </div>
+        </a>
         </div>
       </div>
     </div>
     <div class="w-full h-auto p-4 ">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">About Me</h2>
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white" id="about">About Me</h2>
       <about />
     </div>
-    <div class="w-full h-auto p-3">
+    <div class="w-full h-auto p-3" id="service">
       <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Service</h2>
       <service/>
     </div>
-    <div class="w-full h-auto ">
+    <div class="w-full h-auto " id="portfolio">
       <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Portfolio</h2>
      <portfolio/>
     
     </div>
-    <div class="w-full h-auto">
+    <div class="w-full h-auto" id="contact">
       <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">SAY HELLO TO ME</h2>
     </div>
   </div>
