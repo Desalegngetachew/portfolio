@@ -2,7 +2,7 @@
     <div class="w-full h-full bg-green-50 dark:bg-gray-800">
 <div class="flex gap-2 items-center justify-between flex-wrap">
 <!-- <div class=" "> -->
-    <div class="contact text-gray-800 dark:text-white block justify-center items-center ml-10 flex-wrap md:w-[43%] sm:h-full">
+    <div v-motion-slide-visible-left class="contact text-gray-800 dark:text-white block justify-center items-center ml-10 flex-wrap md:w-[43%] sm:h-full">
         <h1 class="text-2xl p-2">{{about_name}}</h1>
         <p>{{paragraph}}</p>
         <div class="flex gap-2 mt-3">
@@ -31,10 +31,10 @@
         </div>
     </div>
 <!-- </div> -->
-<div class="w-48 justify-center items-center md:ml-10 sm:ml-10 sm:items-center">
+<div v-motion-slide-visible-top class="w-48 justify-center items-center md:ml-10 sm:ml-10 sm:items-center">
     <img src="../assets/background.jpg" class="rounded-full" alt="was my photo">
 </div>
-<div class="block lg:ml-0 sm:ml-10 text-gray-800 dark:text-white">
+<div v-motion-slide-visible-right class="block lg:ml-0 sm:ml-10 text-gray-800 dark:text-white">
     <h2 class="text-3xl text-gray-800 dark:text-white">My Professional Skills</h2>
     <div >
         c

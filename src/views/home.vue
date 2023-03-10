@@ -16,9 +16,9 @@
         <div class="main flex items-center pt-4">
           <div class="text font-mono font-bold text-lg">I'm a</div>
           <ul class="option font-mono font-bold text-lg">
-            <li><span>Programmer</span></li>
-            <li><span>Designer</span></li>
-            <li><span>Developer</span></li>
+            <li><span>Website Developer</span></li>
+            <li><span>Graphics Designer</span></li>
+            <li><span>Flutter Developer</span></li>
             <li><span>Freelancer</span></li>
           </ul>
         </div>
@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full h-auto p-4 ">
+    <div class="w-full h-auto p-4">
       <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white" id="about">About Me</h2>
       <about />
     </div>
