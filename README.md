@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+### Link on netlify.com
+[My profile](https://desalegngetachew.netlify.app/)
+### Licence
+[MIT](https://choosealicense.com/licenses/mit/)
