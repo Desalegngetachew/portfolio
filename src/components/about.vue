@@ -35,40 +35,38 @@
     <img src="../assets/background.jpg" class="rounded-full" alt="was my photo">
 </div>
 <div v-motion-slide-visible-right class="block lg:ml-0 sm:ml-10 text-gray-800 dark:text-white">
-    <h2 class="text-3xl text-gray-800 dark:text-white">My Professional Skills</h2>
+    <h2 class="text-2xl text-gray-800 dark:text-white">My Skills</h2>
     <div >
-        c
+        <p class="font-bold font-mono">Flutter</p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">Vue js </p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">Node and Express js</p>
     </div>
     <div >
-        c
+       <p class="font-bold font-mono">JavaScript</p> 
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">PHP</p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">CSS</p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">Tailwind</p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">Bootstrap</p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">Java</p>
     </div>
     <div >
-        c
+        <p class="font-bold font-mono">C++</p>
     </div>
-    <div >
-        c
-    </div>
+   
 </div>
 </div>
     </div>
