@@ -28,6 +28,6 @@ npm run dev
 npm run build
 ```
 ### Link on netlify.com
-[MIT](https://desalegngetachew.netlify.app/)
+[My profile](https://desalegngetachew.netlify.app/)
 ### Licence
 [MIT](https://choosealicense.com/licenses/mit/)
