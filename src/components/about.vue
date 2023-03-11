@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-full bg-green-50 dark:bg-gray-800">
-<div class="flex gap-2 items-center justify-between flex-wrap">
+<div class="flex gap-2 items-center justify-center flex-wrap">
 <!-- <div class=" "> -->
     <div v-motion-slide-visible-left class="contact text-gray-800 dark:text-white block justify-center items-center ml-10 flex-wrap md:w-[43%] sm:h-full">
         <h1 class="text-2xl p-2">{{about_name}}</h1>
@@ -34,8 +34,18 @@
 <div v-motion-slide-visible-top class="w-48 justify-center items-center md:ml-10 sm:ml-10 sm:items-center">
     <img src="../assets/background.jpg" class="rounded-full" alt="was my photo">
 </div>
-<div v-motion-slide-visible-right class="block lg:ml-0 sm:ml-10 text-gray-800 dark:text-white">
-    <h2 class="text-2xl text-gray-800 dark:text-white">My Skills</h2>
+</div>
+<!-- <h2 class="text-2xl text-center py-6 text-gray-800 dark:text-white">Skills</h2> -->
+<div class="flex gap-10 justify-center items-center py-8 px-8 flex-wrap">
+<div v-motion-slide-visible-top class="w-60 justify-center items-center md:ml-10 sm:ml-10 sm:items-center">
+<img src="../assets/computer-skill.png" alt="computer image" srcset="" class="h-auto pt-6 w-full">
+</div>
+<div v-motion-slide-visible-right class="text-lg block lg:ml-0 sm:ml-10 text-gray-800 dark:text-white">
+    <div>
+        <p class="text-2xl text-center py-6 text-gray-800 dark:text-white">
+        Programming and scripting language
+    </p>
+</div>
     <div >
         <p class="font-bold font-mono">Flutter</p>
     </div>
