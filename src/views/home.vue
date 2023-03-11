@@ -82,7 +82,7 @@
       <service/>
     </div>
     <div class="w-full h-auto bg-green-200" id="portfolio">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Portfolio</h2>
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-orange-800">Portfolio</h2>
      <portfolio/>
     
     </div>

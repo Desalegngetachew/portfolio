@@ -10,12 +10,12 @@
         <div class="bg-green-200 pb-10">
     <p class="text-lg font-mono font-bold text-center pt-2 pb-4">The followings are some of my previous project works.</p>
     <!-- <h3 class="text-2xl text-center">login please</h3> -->
-    <a href="https://desalegngetachew.netlify.app/" class="text-lg font-mono text-center font-bold hover:scale-110 py-2 hover:text-white text-gray-800 dark:text-white"><p>
+    <a href="https://desalegngetachew.netlify.app/" class="text-lg font-mono text-center font-bold hover:scale-110 py-2 hover:text-orange-800 text-gray-800 dark:text-orange-800"><p class="hover:scale-110">
         My profile website
     </p></a>
-    <a href="" class="text-lg font-mono text-center font-bold text-gray-800 dark:text-white hover:scale-110 py-2 hover:text-white"><p>Agriculture product E-Commerce</p></a>
-    <a href="" class="text-lg font-mono text-center font-bold text-gray-800 dark:text-white hover:scale-110 py-2 hover:text-white"><p>Job Finding site in Ethiopia</p></a>
-    <a href="" class="text-lg font-mono text-center font-bold text-gray-800 dark:text-white hover:scale-110 py-2 hover:text-white"><p>Ethiopian Vital Registration</p></a>
+    <a href="" class="text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 hover:scale-110 py-2 hover:text-orange-800"><p class="hover:scale-110">Agriculture product E-Commerce</p></a>
+    <a href="" class="text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 hover:scale-110 py-2 hover:text-orange-800"><p class="hover:scale-110">Job Finding site in Ethiopia</p></a>
+    <a href="" class="text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 hover:scale-110 py-2 hover:text-orange-800"><p class="hover:scale-110">Ethiopian Vital Registration</p></a>
 </div>
 </div>
     </div>
