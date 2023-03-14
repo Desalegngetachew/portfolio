@@ -83,7 +83,7 @@
 
 <div class=" pt-5">
     <div class="grid sm:grid-cols-1 md:grid-cols-2 sm:gap-5 md:gap-16 text-gray-800 dark:text-white justify-center sm:px-3 md:px-11">
-      <div class="border-2 shadow-lg p-2 dark:border" id="education">
+      <div class="border-2  bg-gray-200 dark:bg-gray-800 shadow-lg p-2 dark:border" id="education">
         <h2 class="text-2xl py-6 text-gray-800 dark:text-white">Education</h2>
         <ul class="">
           
@@ -100,7 +100,7 @@
         
         </ul>
       </div>
-      <div class="border-2 shadow-lg p-2 dark:border" data-wow-delay="200ms" id="experience">
+      <div class="border-2 bg-gray-200 dark:bg-gray-800 shadow-lg p-2 dark:border" data-wow-delay="200ms" id="experience">
         <h2 class="text-2xl py-6 text-gray-800 dark:text-white">Experience</h2>
         <ul class="">
           <li>
