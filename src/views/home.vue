@@ -81,13 +81,17 @@
       <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Service</h2>
       <service/>
     </div>
-    <div class="w-full h-auto bg-green-200" id="portfolio">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-orange-800">Portfolio</h2>
-     <portfolio/>
+    <div class="w-full h-auto bg-green-200 dark:bg-gray-800" id="project">
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">My Previous projects</h2>
+     <project/>
     
     </div>
-    <div class="w-full h-auto" id="contact">
-      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">SAY HELLO TO ME</h2>
+    <div class="w-full h-auto bg-gray-200 dark:bg-gray-800" id="contact">
+      <h2 class="text-center text-3xl p-4 text-gray-800 dark:text-white">Say hello to me</h2>
+<contact/>
+    </div>
+    <div>
+      <footer/>
     </div>
   </div>
 </template>
@@ -95,7 +99,9 @@
 <script setup>
 import about from "../components/about.vue";
 import service from "../components/service.vue";
-import portfolio from "../components/portfolio.vue";
+import project from "../components/project.vue";
+import footer from '../components/footer.vue';
+import contact from '../components/contact.vue';
 </script>
 
 <style scoped>
