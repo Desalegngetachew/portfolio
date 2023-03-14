@@ -76,10 +76,56 @@
     <div >
         <p class="font-bold font-mono">C++</p>
     </div>
-   
 </div>
+
 </div>
+
+
+<div class=" pt-5">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 sm:gap-5 md:gap-16 text-gray-800 dark:text-white justify-center sm:px-3 md:px-11">
+      <div class="border-2 shadow-lg p-2 dark:border" id="education">
+        <h2 class="text-2xl py-6 text-gray-800 dark:text-white">Education</h2>
+        <ul class="">
+          
+          <li>
+            <div class="py-3 bg-yellow-500 rounded-r-3xl w-[50%] px-3"> 2010/2018 - Current </div>
+            <div class="details">
+              <h5> Bahir Dar Institute of Technology, BDU </h5>
+              <small class="fg-theme"> BSc in Software Engineering </small>
+              <p> I am currently studying my <code> BSc in Software Engineering </code>
+                in this University.
+              </p>
+            </div>
+          </li>
+        
+        </ul>
+      </div>
+      <div class="border-2 shadow-lg p-2 dark:border" data-wow-delay="200ms" id="experience">
+        <h2 class="text-2xl py-6 text-gray-800 dark:text-white">Experience</h2>
+        <ul class="">
+          <li>
+            <div class="py-3 bg-yellow-500 rounded-r-3xl w-[57%] px-3">June 1, 2022 - Oct 30, 2022</div>
+            <div class="details">
+              <h5 class="font-bold font-mono text-lg"> Internship </h5>
+              <small class="font-bold font-mono text-lg"> Debre Markos University </small>
+              <p> I have developed <code>Jop portal system for Ethiopia</code> during my Internship period.
+                With this four Internship period, I have gained an experience on website development.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+        <h2 class="fw-normal"> My GitHub History</h2>
+        <div class="calendar"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
 </template>
 
 <script setup>
