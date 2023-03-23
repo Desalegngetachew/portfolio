@@ -8,29 +8,57 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
     <div class="w-full">
-    <form action="">
+    <form action="" @submit.prevent="addMessage()">
        <div  class="w-full flex flex-col gap-3 px-20 py-10">
         <div class="">
-            <input required type="text" name="name" id="name" placeholder="Your name" class="border border-green-300 shadow-md py-2 px-6 w-full text-lg font-mono font-bold text-gray-800 dark:text-gray-800">
+            <input required v-model="userName" type="text" name="name" id="name" placeholder="Your name" class="border border-green-300 shadow-md py-2 px-6 w-full text-lg font-mono font-bold text-gray-800 dark:text-gray-800">
         </div>
             <div class="flex gap-2 w-full">
-            <input required type="email" id="email" name="email" placeholder="Your Email Address" class="border border-green-300 shadow-md py-2 px-1 w-full text-lg font-mono font-bold text-gray-800 dark:text-gray-800">
-            <input type="text" id="subject" name="subject" placeholder="Subject" class="border border-green-300 shadow-md py-2 px-1 w-full text-lg font-mono font-bold text-gray-800 dark:text-gray-800">
+            <input required v-model="email" type="email" id="email" name="email" placeholder="Your Email Address" class="border border-green-300 shadow-md py-2 px-1 w-full text-lg font-mono font-bold text-gray-800 dark:text-gray-800">
+            <input type="text" v-model="subject" id="subject" name="subject" placeholder="Subject" class="border border-green-300 shadow-md py-2 px-1 w-full text-lg font-mono font-bold text-gray-800 dark:text-gray-800">
         </div>
         <div>
-        <textarea required class="border border-green-300 shadow-md p-5 text-lg font-mono font-bold w-full" name="message" id="message" cols="30" rows="5" placeholder="Write message here.Eg. Hi nice to meet you, I want to get in touch... "></textarea>
+        <textarea required v-model="message" class="border border-green-300 shadow-md p-5 text-lg font-mono font-bold w-full" name="message" id="message" cols="30" rows="5" placeholder="Write message here.Eg. Hi nice to meet you, I want to get in touch... "></textarea>
     </div>
     <div>
         <input type="submit" value="Send message" class="px-11 py-2 cursor-pointer rounded-lg bg-green-400 text-white hover:scale-x-110 hover:bg-green-700">
     </div>
     </div>
     </form>
+   <p>{{ "name: "+userName }}</p> 
+    <p>{{ "email: "+email }}</p>
+   <p> {{ "subject: "+subject }}</p>
+   <p> {{ "message: "+message }}</p>
 </div>
 </div>
     </div>
 </template>
 
 <script setup>
+import { ref } from 'vue';
+import { collection, addDoc } from 'firebase/firestore';
+
+const userName = ref("");
+const email = ref("");
+const subject = ref("");
+const message = ref("");
+
+
+const addMessage = async ()=> {
+
+    try {
+  const docRef = await addDoc(collection(db, "message"), {
+    userName: userName.value,
+    email: email.value,
+    subject:subject.value,
+    message:message.value
+  });
+  console.log("Document written with ID: ", docRef.id);
+} catch (e) {
+  console.error("Error adding document: ", e);
+}
+
+}
 
 </script>
 

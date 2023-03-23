@@ -10,30 +10,30 @@
         <p class="text-lg font-mono font-bold text-center pt-2 pb-4 text-gray-800 dark:text-white">The followings are some of my previous project works.</p>
         <div class="bg-green-200 dark:bg-gray-800 pb-10 flex gap-5 items-center justify-center sm:px-3 md:px-8 flex-wrap">
     <!-- <h3 class="text-2xl text-center">login please</h3> -->
-    <a href="https://desalegngetachew.netlify.app shadow-lg text-lg font-mono text-center font-bold hover:scale-110 py-2 hover:text-orange-800 text-gray-800 dark:text-orange-800">
-    <div class="h-96 w-72 rounded-lg bg-slate-100 shadow-lg hover:shadow-lg hover:scale-110 border dark:border-white">
+    <a href="https://desalegngetachew.netlify.app">
+    <div class="h-96 w-72 rounded-lg bg-slate-100 shadow-lg shadow-slate-900 hover:shadow-lg border dark:border-white">
         <p class="hover:scale-110 py-3 text-center">
         My portfolio website
     </p>
-    <img src="../assets/background.jpg" alt="" srcset="">
+    <img src="../assets/myProfile.png" alt="" srcset="" class="hover:scale-110">
 </div>
 </a>
-    <a href="" class=" text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 hover:scale-110 py-2 hover:text-orange-800">
-        <div class="h-96 w-72 rounded-lg bg-slate-100 shadow-lg hover:shadow-lg hover:scale-110 border dark:border-white">
+    <a href="" class=" text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 py-2 hover:text-orange-800">
+        <div class="h-96 w-72 rounded-lg bg-slate-100 shadow-lg hover:shadow-lg border dark:border-white">
             <p class="hover:scale-110">Agriculture product E-Commerce</p>
-            <img src="../assets/background.jpg" alt="" srcset="">
+            <img src="../assets/background.jpg" alt="" srcset="" class="hover:scale-110">
         </div>
     </a>
-    <a href="" class=" text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 hover:scale-110 py-2 hover:text-orange-800">
-        <div class="h-96 w-72 bg-slate-100 rounded-lg shadow-md hover:shadow-lg hover:scale-110 border dark:border-white">
+    <a href="" class=" text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 py-2 hover:text-orange-800">
+        <div class="h-96 w-72 bg-slate-100 rounded-lg shadow-md hover:shadow-lg border dark:border-white">
         <p class="hover:scale-110">Job Finding site in Ethiopia</p>
-        <img src="../assets/background.jpg" alt="" srcset="">
+        <img src="../assets/background.jpg" alt="" srcset="" class="hover:scale-110">
     </div>
     </a>
-    <a href="" class=" text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 hover:scale-110 py-2 hover:text-orange-800">
-        <div class=" h-96 w-72 rounded-lg bg-slate-100 shadow-lg hover:shadow-lg hover:scale-110 border dark:border-white">
+    <a href="" class=" text-lg font-mono text-center font-bold text-gray-800 dark:text-orange-800 py-2 hover:text-orange-800">
+        <div class=" h-96 w-72 rounded-lg bg-slate-100 shadow-lg hover:shadow-lg border dark:border-white">
         <p class="hover:scale-110">Ethiopian Vital Registration</p>
-        <img src="../assets/background.jpg" alt="" srcset="">
+        <img src="../assets/background.jpg" alt="" srcset="" class="hover:scale-110">
     </div>
 </a>
 </div>
