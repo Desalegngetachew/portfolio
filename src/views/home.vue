@@ -26,7 +26,16 @@
           <h1 class="typing"></h1>
         </vue-typed-js> -->
         <div class="flex gap-4 pt-10 mt-10 items-center justify-center">
-          <a href="https://www.facebook.com/desetyibyit.sol">
+          <a href="mailto:desalegn251@gmail.com" target="_blank" title="get in touch with Email">
+          <div class="p-4 bg-gray-300 hover:scale-110 hover:bg-green-400 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="h-7 w-7 fill-current hover:scale-110 text-blue-800"
+            viewBox="0 0 16 16">
+            <path
+              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+          </svg>
+          </div>
+        </a>
+          <a href="https://www.facebook.com/desetyibyit.sol" title="follow in Facebook">
           <div class="p-4 bg-gray-300 hover:scale-110 hover:bg-green-400 rounded-full">
             <svg
               class="h-7 w-7 hover:scale-110 fill-current text-blue-600"
@@ -43,7 +52,7 @@
             </svg>
           </div>
         </a>
-        <a href="https://t.me/deseget">
+        <a href="https://t.me/deseget" title="contact in Telegram">
           <div class="p-4 hover:scale-110 hover:bg-green-400 bg-gray-300 rounded-full">
             <svg
               class="h-7 w-7 fill-current hover:scale-110 text-green-600"
@@ -60,12 +69,12 @@
             </svg>
           </div>
         </a>
-        <a href="https://github.com/Desalegngetachew">
+        <a href="https://github.com/Desalegngetachew" title="see in github">
           <div class="p-4 hover:scale-110 hover:bg-green-400 cursor-pointer bg-gray-300 rounded-full">
 <img src="../assets/github.png" alt="github logo" class="h-8 w-8" srcset="">
           </div>
         </a>
-      <a href="https://linkedin.com/in/desalegn-getachew-23b213234">
+      <a href="https://linkedin.com/in/desalegn-getachew-23b213234" title="get in LinkedIn">
           <div class="p-4 hover:scale-110 hover:bg-green-400 cursor-pointer bg-gray-300 rounded-full">
             <img src="../assets/linkedin.png" alt="linked logo" class="h-7 w-7" srcset="">
           </div>

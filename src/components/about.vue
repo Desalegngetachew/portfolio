@@ -2,7 +2,7 @@
     <div class="w-full h-full bg-green-50 dark:bg-gray-800">
 <div class="flex gap-2 items-center justify-center flex-wrap">
 <!-- <div class=" "> -->
-    <div v-motion-slide-visible-left class="contact text-gray-800 dark:text-white block justify-center items-center ml-10 flex-wrap md:w-[43%] sm:h-full">
+    <div class="contact text-gray-800 dark:text-white block justify-center items-center ml-10 flex-wrap md:w-[43%] sm:h-full">
         <h1 class="text-2xl p-2">{{about_name}}</h1>
         <p>{{paragraph}}</p>
         <div class="flex gap-2 mt-3">
@@ -83,7 +83,7 @@
 
 <div class=" pt-5">
     <div class="grid sm:grid-cols-1 md:grid-cols-2 sm:gap-5 md:gap-16 text-gray-800 dark:text-white justify-center sm:px-3 md:px-11">
-      <div class="border-2  bg-gray-200 dark:bg-gray-800 shadow-lg p-2 dark:border" id="education">
+      <div class="education border-2  bg-gray-200 dark:bg-gray-800 shadow-lg p-2 dark:border" id="education">
         <h2 class="text-2xl py-6 text-gray-800 dark:text-white">Education</h2>
         <ul class="">
           
@@ -100,7 +100,7 @@
         
         </ul>
       </div>
-      <div class="border-2 bg-gray-200 dark:bg-gray-800 shadow-lg p-2 dark:border" data-wow-delay="200ms" id="experience">
+      <div class="experience border-2 bg-gray-200 dark:bg-gray-800 shadow-lg p-2 dark:border" data-wow-delay="200ms" id="experience">
         <h2 class="text-2xl py-6 text-gray-800 dark:text-white">Experience</h2>
         <ul class="">
           <li>
@@ -116,7 +116,7 @@
       </div>
     </div>
   </div>
-  <div class="container pt-5">
+  <div class="github container pt-5">
     <div class="row">
       <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
         <h2 class="fw-normal"> My GitHub History</h2>
@@ -135,12 +135,39 @@
 </script>
 
 <style scoped>
+@keyframes fadeInLeft {
+  from{
+transform: translateX(-300px);
+  }
+  to{
+transform:translateX(0);
+  }
+}
+@keyframes fadeInRight {
+  from{
+transform: translateX(300px);
+  }
+  to{
+transform:translateX(0);
+  }
+}
+
 @media (max-width:600px) {
    .contact {
     width: 100%;
     margin-left:0px;
-     
+  
     }
    
   }
+  .contact{
+    animation:fadeInLeft 1s ease-in both normal;
+  }
+  .education{
+    animation:fadeInLeft 1s ease-in;
+  }
+  .experience{
+    animation:fadeInRight 1s ease-in;
+  }
+
 </style>

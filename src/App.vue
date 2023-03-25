@@ -29,11 +29,12 @@ const hiddenToggle = ref(false)
         <a href="#project" class="hover:text-green-700 hover:border-b-2">Projects</a>
         <!-- <RouterLink to="/contact" class="hover:text-green-700 hover:border-b-2">Contact</RouterLink> -->
         <a href="#contact" class="hover:text-green-700 hover:border-b-2">Contact</a>
+        <a href="https://app.hubspot.com/live-messages/24331439/inbox/4222707087#live-chat" class="hover:text-green-700 hover:border-b-2">live chat</a>
         <button @click="toggleDark()" class="rounded-lg py-2 text-gray-800 dark:text-white text-bold text-lg px-6">
-         <span v-show="isDark">
+         <span v-show="isDark" title="Bright the page">
           <svg class="fill-current h-6 w-auto hover:scale-x-110 hover:border-b-2 hover:border-l-2" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LightModeOutlinedIcon" tabindex="-1" title="LightModeOutlined"><path d="M12 9c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3m0-2c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"></path></svg>
          </span>
-         <span v-show="!isDark">
+         <span v-show="!isDark" title="Dark page">
           <svg class="fill-current h-6 w-auto hover:scale-x-110 hover:border-b-2 hover:border-l-2" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NightlightRoundOutlinedIcon" tabindex="-1" title="NightlightRoundOutlined"><path d="M15.5 22c1.05 0 2.05-.16 3-.46-4.06-1.27-7-5.06-7-9.54s2.94-8.27 7-9.54c-.95-.3-1.95-.46-3-.46-5.52 0-10 4.48-10 10s4.48 10 10 10z"></path></svg>
          </span>
         </button>
